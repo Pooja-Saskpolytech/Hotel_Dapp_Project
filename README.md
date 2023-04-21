@@ -1,7 +1,7 @@
 # Run Project
 
 Steps to run in Remix.
-To use this project in run before deploy enter two values with deploy(booleanValue,etherValue)
+To amke this project to run  deploy by enter two values with deploy(booleanValue,etherValue)
 (true,1000000000000000) true to use fixed value
 (false,100000000000000) false for using pricefeedValue'
 
