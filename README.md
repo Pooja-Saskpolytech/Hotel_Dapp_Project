@@ -1,4 +1,5 @@
 # Run Project
+Front end of the project is not fully integrated with the contracts.Please follow the below steps to test and run the project in Remix.
 
 Steps to run in Remix.
 To make this project to run follow the below steps.
