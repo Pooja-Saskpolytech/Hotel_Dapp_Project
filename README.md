@@ -1,7 +1,8 @@
 # Run Project
 
 Steps to run in Remix.
-To amke this project to run  deploy by enter two values with deploy(booleanValue,etherValue)
+To make this project to run follow the below steps.
+Deploy the contract by entering two values with deploy(booleanValue,etherValue)
 (true,1000000000000000) true to use fixed value
 (false,100000000000000) false for using pricefeedValue'
 
