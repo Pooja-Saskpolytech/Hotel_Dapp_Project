@@ -8,24 +8,30 @@ Deploy the contract by entering two values with deploy(booleanValue,etherValue)
 
 Flow of execution
 
-1.GetTokenPrice
+1.View current token price
+Execute GetTokenPrice
 
-2. Buy Token 
-copy the output of previous step and  put in VALUE field
-Enter number of token you want to buy in buy method and click it.
+2.Buy Token 
+Copy the output of previous step and  put it in VALUE field
+Enter number of token you want to buy in buyTokens method and click it.
 
 3.Get Token Balance
-Click the button and confirm that token blance is updated
+Execute the getTokenBalance method and confirm that token blance is updated.
 
-4. Book Room
-For booking room enter name ,checkin and check out date in epoch
+4.See room availability
+Execute the function getRoomAvailability by entering checkin and checkout date to see the room availability.
+Dates should be eneterd in timestamp format.
+
+5.Book Room
+For booking room enter name ,checkin and check out date.
 https://www.epochconverter.com/ use this for conversion
+Dates should be enterd in timestamp format.
+Select dates with atleast 24 hours difference.
 
-5.See bookings
+6.See bookings
 See the bookings of user buy clicking viewUserBookings
 
-6.Cancel Booking
-To cancel booking you should have booking atleast for one night,
+7.Cancel Booking
 Enter checkin date for canceling booking
 
 ----------------------------------
